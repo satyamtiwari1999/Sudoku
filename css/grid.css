@@ -1,0 +1,141 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+* ::selection
+{
+    background-color: transparent;
+}
+body
+{
+    background-color: #25274d;
+}
+/* main banner of the site */
+.banner-container
+{
+    display: none;
+}
+/* problem grid */
+.sudoku_grid
+{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    text-align: left;
+}
+.grid
+{
+    width: 40%;
+    display: inline-block;
+    padding: 50px 120px;
+    box-shadow: red;
+}
+.grid tr
+{
+
+    display: block;
+    margin-bottom: -3px;
+    /* border: 1px solid black; */
+    /* border-width: 1px 0 0 0; */
+}
+.grid tr td
+{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: auto;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+.option-chart
+{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 150px;
+    margin-left: -90px;
+    margin-right: 90px;
+}
+.options
+{
+    padding-bottom: 30px;
+    /* margin-bottom: -20px; */
+    display: inline-block;
+}
+.options tr td
+{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    /* margin-top: auto; */
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+.option-chart h3
+{
+    vertical-align: middle;
+    color: white;
+}
+/* solution button */
+.button-container
+{
+    text-align: center;
+}
+button
+{
+    margin-top: 50px;
+    display: inline-block;
+    font-size: 25px;
+    padding: 3px 8px;
+    background-color: #2e9cca;
+    color: black;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+/* solution grid */
+.solution-table
+{
+    display: inline-block;
+    margin-top: 50px;
+    /* margin-left: 50px; */
+    vertical-align: top;
+    text-align: center;
+}
+.solution-grid
+{
+    width: 100%;
+    display: none;
+    text-align: center;
+    box-shadow: red;
+}
+.solution-grid tr
+{
+
+    display: block;
+    margin-bottom: -3px;
+    /* border: 1px solid black; */
+    /* border-width: 1px 0 0 0; */
+}
+.solution-grid tr td
+{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: auto;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+/* time */
+.time
+{
+    text-align: center;
+    color: ivory;
+}
